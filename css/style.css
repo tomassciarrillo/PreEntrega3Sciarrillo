@@ -95,15 +95,25 @@
 
 .carrito{
     background-color:rgb(227, 236, 227);
-    height: 200px;
+    min-height: 200px;
     width: 80%;
     border-radius: 10px;
+    padding: 30px;
+    
 }
 
 .titulo-carrito{
     color: rgb(161, 188, 161);
     font-size: 20px;
     text-decoration: underline;
-    padding-left: 10px;
-    padding-top: 10px;
+}
+
+#vaciar-carrito{
+    background-color: rgb(219, 107, 107);
+    color: aliceblue;
+    border: aliceblue;
+}
+
+#vaciar-carrito:hover{
+    background-color: rgb(184, 91, 91);
 }
